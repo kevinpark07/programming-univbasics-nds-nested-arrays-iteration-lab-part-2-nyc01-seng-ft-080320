@@ -6,10 +6,10 @@ all_lowest_temps = []
 
 while i < src.length do
   inner_i = 0 
-  lowest_temps = 0
+  lowest_temps = ""
   
   while inner_i < src[i].length do
-    if src[i][inner_i] < lowest_temps
+    if src[i][inner_i].to_s < lowest_temps
       lowest_temps = src[i][inner_i]
     end
     inner_i += 1 
