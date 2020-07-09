@@ -14,7 +14,7 @@ while i < src.length do
     end
     inner_i += 1 
   end
-  lowest_temps.to_i << all_lowest_temps
+  lowest_temps.join << all_lowest_temps
    i += 1 
 end
 all_lowest_temps
