@@ -9,7 +9,7 @@ while i < src.length do
   lowest_temps = 0 
   
   while inner_i < src[i].length do
-    if src[i][inner_i].integer? < lowest_temps.integer?
+    if src[i][inner_i] < lowest_temps
       lowest_temps = src[i][inner_i]
     end
     inner_i += 1 
