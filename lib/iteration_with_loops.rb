@@ -9,12 +9,12 @@ while i < src.length do
   lowest_temps = ""
   
   while inner_i < src[i].length do
-    if src[i][inner_i].to_s < lowest_temps
+    if src[i][inner_i].Integer < lowest_temps.Integer
       lowest_temps = src[i][inner_i]
     end
     inner_i += 1 
   end
-  lowest_temps.join << all_lowest_temps
+  lowest_temps << all_lowest_temps
    i += 1 
 end
 all_lowest_temps
