@@ -10,6 +10,7 @@ while i < src.length do
   
   while inner_i < src[i].length do
     if src[i][inner_i] < lowest_temps
+      
       lowest_temps = src[i][inner_i]
     end
     inner_i += 1 
